@@ -11,7 +11,7 @@ import (
 	"github.com/elastic/beats/libbeat/logp"
 	"github.com/elastic/beats/libbeat/publisher"
 
-	"github.com/fstelzer/sflow"
+	"github.com/yseto/sflow"
 )
 
 type Flowbeat struct {

@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"github.com/elastic/beats/libbeat/beat"
-	"github.com/fstelzer/flowbeat/beater"
+	"github.com/yseto/flowbeat/beater"
 )
 
 var Name = "flowbeat"

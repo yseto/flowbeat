@@ -1,9 +1,9 @@
-package: github.com/fstelzer/flowbeat
 import:
 - package: github.com/elastic/beats
+  version: a0f543d88691f3081d63fcce83defc57a631cb8c
   subpackages:
   - libbeat/beat
   - libbeat/cfgfile
   - libbeat/logp
   - libbeat/publisher
-- package: github.com/fstelzer/sflow
+- package: github.com/yseto/sflow
